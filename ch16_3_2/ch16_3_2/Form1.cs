@@ -16,5 +16,10 @@ namespace ch16_3_2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "push the button-v2.0";
+        }
     }
 }
